@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>HTML and CSS Crash Course</title>
+    <link rel="stylesheet" type="text/css" href="build/build.css">
+  </head>
+  <body>
+    <article>
+      <section class="left">
+        <h1>HTML &amp; CSS<br> CRASH COURSE</h1>
+      </section>
+      <section class="left">
+        <h2 class="bullet">Who am I ?</h2>
+        <h2 class="bullet">Who are you ?</h2>
+        <h2 class="bullet">What are we going to do ?</h2>
+      </section>
+      <section>
+        <h1>HTML/CSS</h1>
+        <p>It's like the wind, I feel it but don't see it.</p>
+        <ul class="bullet">
+          <li>Websites</li>
+          <li>Emails</li>
+          <li>Webapps and apps</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Practice 00: at the tip of your nose</h3>
+        <p>Open a page at "grabcode.fr" in Chrome</p>
+        <p>Right click, and "View page source"</p>
+      </section>
+      <section>
+        <h2>Use a prism</h2>
+        <p>A Web page is a blend of mostly:</p>
+        <ul class="bullet">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Explaination with an analogy</h3>
+        <ul class="bullet">
+          <li>HTML defines the page squeleton</li>
+          <li>CSS defines the page skin</li>
+          <li>JavaScript defines the page behaviors</li>
+        </ul>
+      </section>
+      <section>
+        <h2>HyperText Markup Language</h2>
+        <p>HTML are tags, with attributes</p><code class="language-html">
+          &lt;tagname1> Tag content &lt;/tagname1>
+          &lt;tagname2 /> &lt;-- Auto closing tag (this is a comment) -->
+          &lt;tagname3 attribute1Name="attribute1Value" attr2="">&lt;/tagname3></code>
+      </section>
+      <section>
+        <h2>HTML5</h2>
+        <p>5th version of HTML, bringing much more simplicity and functionalities</p>
+      </section>
+      <section>
+        <h3>Practice 01 with "codepen.io"</h3>
+        <p>Title, Paragraph, Link, Lists, Article, Section</p>
+      </section>
+      <section>
+        <h3>Practice 02</h3>
+        <p class="bullet">Add tags to "ga_press_release"</p>
+        <p class="bullet">Add tags to "cookie_recipe"</p>
+      </section>
+      <section>
+        <h2>Cascading Style Sheet aka CSS</h2>
+        <p>Invented after HTML to style the pages</p>
+        <p>CSS is in version 3, so we say CSS3</p>
+      </section>
+      <section>
+        <h3>Syntax</h3><img src="images/csssyntax.png" width="350px">
+      </section>
+      <section>
+        <h3>Practice 03</h3>
+        <p>Back to "ga_press_release"</p>
+        <p>Play with background-color, text color, size of the text</p>
+      </section>
+      <section>
+        <h4>Go to pres about images, colors and fonts</h4>
+      </section>
+      <section>
+        <h2>Where should I write the CSS</h2>
+        <ul class="bullet">
+          <li>Inline - quick and dirty</li>
+          <li>Internal - quick and still dirty</li>
+          <li>External - now we talk</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Connect CSS to HTML</h2>
+        <p>Using tagname, as seen</p>
+        <p>Using id, prefix with '#' to select</p>
+        <p>Using classes, prefix with '.' to select</p>
+      </section>
+      <section>
+        <h3>Practice 04</h3>
+        <p>Back to "cookie_recipe"</p>
+        <p>Create a file 'styles.css', and add rules</p>
+      </section>
+      <section>
+        <h2>Notion of CSS inheritance</h2>
+        <p class="bullet">The property "color" is inherited by the nested tags (test with body)</p>
+        <p class="bullet">"margin" is not</p>
+      </section>
+      <section>
+        <h3>Properties that inherit</h3>
+        <p> color, font (and related properties), letter-spacing, line-height, list-style (and related properties), text-align, text-indent, text-transform, visibility, white-space, word-spacing</p>
+        <h3>Properties that don't</h3>
+        <p>background (and related properties), border (and related properties), display, float and clear, height and width, margin (and related properties), min- and max-height and -width, outline, overflow, padding (and related properties), position (and related properties), text-decoration, vertical-align, z-index</p>
+      </section>
+      <section>
+        <h2>CSS Box model</h2><img src="images/cssboxmodel.png" width="350px">
+      </section>
+      <section>
+        <h2>CSS Box model dimensions</h2><img src="images/cssboxmodeldimension.png" width="350px">
+      </section>
+      <section>
+        <h2>CSS Box model border</h2><img src="images/cssboxmodelborder.png" width="350px">
+      </section>
+      <section>
+        <h2>CSS Box model padding and margin</h2><img src="images/cssboxmodelpaddingmargin.png" width="350px">
+      </section>
+      <section>
+        <h3>Practice 05: Web inspector</h3>
+        <p>Lets go to xkcd.com</p>
+        <ul>
+          <li>1. What is the width of the #topContainer?</li>
+          <li>2. What is the background-colour of the body?</li>
+          <li>3. What are the exact dimensions of the image?</li>
+          <li>4. Describe the border of .box</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Page layout</h2>
+        <p>Elements display "inline" such as strong, or i, or span (no semantic)</p>
+        <p>Elements display "block" such as section, header, article, or div (no semantic)</p>
+      </section>
+      <section>
+        <h2>Layout - Float</h2><img src="images/csslayoutfloatresult.png" width="250px"><br><img src="images/csslayoutfloat.png" width="250px">
+      </section>
+      <section>
+        <h2>Layout - clearing the float</h2><img src="images/csslayoutclearfloat.png" width="250px"><br><img src="images/csslayoutclearfloatcode.png" width="250px">
+      </section>
+      <section>
+        <h3>Practice 06: E-visitcard</h3><img src="images/e-visitcard.png" width="320px">
+      </section>
+      <section>
+        <h2>Going further</h2>
+        <ul>
+          <li>Folder structure</li>
+          <li>Code indentation</li>
+          <li>Font-size: px, em, rm</li>
+          <li>More about CSS inheritance: !important over id over classes over classes less specific</li>
+          <li>Google font</li>
+          <li>Font-awesome - pseudo-element</li>
+        </ul>
+      </section>
+      <section><strong>Enjoy! :)</strong><a href="http://twitter.com/grabthecode"> -@grabthecode or Alex</a></section>
+    </article>
+    <script src="build/build.js"></script>
+  </body>
+</html>

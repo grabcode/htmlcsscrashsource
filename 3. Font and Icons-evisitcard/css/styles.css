@@ -1,0 +1,65 @@
+
+html,
+body{
+  height: 100%;
+  font-family: 'Lato';
+}
+
+.e-visitcard{
+  width: 320px;
+  height: 160px;
+  border: 1px solid#ddd;
+  border-radius: 2px;
+  background-color: rgba(0, 0, 0, .04);
+  float: left;
+}
+
+header{
+  height: 70px;
+  padding: 10px;
+}
+
+img{
+  height: 100%;
+  float: left;
+  border-radius: 40px;
+  margin-right: 20px;
+}
+
+h1,
+h2{
+  padding: 0;
+  margin: 0;
+}
+
+h2{
+  font-size: 1em;
+}
+
+.details{
+  width: 33.33%;
+  height: 70px;
+  float: left;
+  font-size: .7em;
+  text-align: center;
+}
+
+.social{
+  background-color: #2FE073;
+}
+
+.mobile{
+  background-color: #246EAC;
+}
+
+.email{
+  background-color: #FA98C6;
+}
+
+i.fa{
+  font-size: 1rem;
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+}
